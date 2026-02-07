@@ -1,16 +1,16 @@
-# class Person:
-#     def __init__(self,name, occupation):
-#         print("Hey  i am person ")
-#         self.name = name
-#         self.occupation = occupation
-#     def info(self):
-#         print(f"{self.name} is a {self.occupation}")
+class Person:
+    def __init__(self,name, occupation):
+        print("Hey  i am person ")
+        self.name = name
+        self.occupation = occupation
+    def info(self):
+        print(f"{self.name} is a {self.occupation}")
 
-# a = Person("Soham", "Student")
-# b = Person("Venom", "Esports Athlete")
+a = Person("Soham", "Student")
+b = Person("Venom", "Esports Athlete")
 
-# a.info()
-# b.info()
+a.info()
+b.info()
 class NoxiousSurge:
     def __init__(self, name,role):
         self.name = name

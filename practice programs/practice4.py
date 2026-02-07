@@ -1,13 +1,13 @@
-# def func():
-#      username = "VenomOP"
-#      print(username)
+def func():
+     username = "VenomOP"
+     print(username)
 
-# func()
+func()
 
-# def my_function ():
-#     y = 5
-#     print(y)
-# my_function()
+def my_function ():
+    y = 5
+    print(y)
+my_function()
 
 # Lambda Function
 
